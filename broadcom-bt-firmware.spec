@@ -1,9 +1,9 @@
-%global commit0 c0bd928b8ae5754b6077c99afe6ef5c949a58f32
+%global commit0 76318437ae2fe1f5da849bf1e3d71609abfdb233
 %global shortcommit0 %(c=%{commit0}; echo ${c:0:7})
 
 Name:           broadcom-bt-firmware
-Version:        12.0.1.1012
-Release:        7%{?dist}
+Version:        12.0.1.1105
+Release:        8%{?dist}
 Summary:        Firmware of Broadcom WIDCOMM Bluetooth devices
 
 License:        Redistributable, no modification permitted
@@ -47,6 +47,9 @@ touch %{buildroot}/lib/firmware/brcm/BCM.hcd
 
 
 %changelog
+* Sun May 17 2020 Nicolas Chauvet <kwizart@gmail.com> - 12.0.1.1105-8
+- Update to 12.0.1.1105
+
 * Wed Feb 05 2020 RPM Fusion Release Engineering <leigh123linux@gmail.com> - 12.0.1.1012-7
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_32_Mass_Rebuild
 
