@@ -3,7 +3,7 @@
 
 Name:           broadcom-bt-firmware
 Version:        12.0.1.1105
-Release:        19%{?dist}
+Release:        20%{?dist}
 Summary:        Firmware of Broadcom WIDCOMM Bluetooth devices
 
 License:        Redistributable, no modification permitted
@@ -47,6 +47,9 @@ touch %{buildroot}/lib/firmware/brcm/BCM.hcd
 
 
 %changelog
+* Sun Aug 02 2026 RPM Fusion Release Engineering <leigh123linux@rpmfusion.org> - 12.0.1.1105-20
+- Rebuilt for https://fedoraproject.org/wiki/Fedora_45_Mass_Rebuild
+
 * Mon Feb 02 2026 RPM Fusion Release Engineering <sergiomb@rpmfusion.org> - 12.0.1.1105-19
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_44_Mass_Rebuild
 
